@@ -73,11 +73,53 @@ h2{
     background: maroon;
 }
 
+
+
 #add-movie{
     width: 400px;
+    margin: 20px auto;
 
 }
 
-#add-movie{
-    width: 400px;
+#add-movie input {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+    clear: both;
+}
+
+#add-movie button {
+    border: 1px solid green;
+    background: green;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    /* float: right; */
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+#add-movie button:hover{
+    background: darkgreen;
+
+}
+
+#add-movie:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+#add-movie label{
+    line-height: 52px;
 }
