@@ -10,5 +10,17 @@ document.addEventListener('DOMContentLoaded'),function(){
             li.parentNode.removeChild(li);
         }
     });
+
+    //add movie
+    const addForm = forms['add-movie'];
+    addForm.addEventListener('submit',function(e){
+    e.preventDefault();
+    })
+
+
+
+
+    //creating elements
+
     
 }
